@@ -2,8 +2,13 @@
 
     {% for news in news_list %}
         <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 news-card">
+
+
             <img src="{{ news.urlToImage }}" alt="{{ news.title }} "  class="img-responsive">
+
+
             <h3>{{news.title}}</h3>
+            
             <p>content: {{news.content}}</p>
             <a href="{{news.url}}">Visit Site</a>
             <li class="text-center">
