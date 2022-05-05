@@ -3,9 +3,7 @@ class News:
     News class to define Movie Objects
     '''
 
-    def __init__(self,id,author,title,description,url,urlToImage,publishedAt,content):
-        self.id =id
-        self.author=author
+    def __init__(self,title,description,url,urlToImage,publishedAt,content):
         self.title = title
         self.description = description
         self.url= url

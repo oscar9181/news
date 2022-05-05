@@ -2,8 +2,8 @@ class Config:
     '''
     General configuration parent class
     '''
-    NEWS_API_BASE_URL ='https://newsapi.org/v2/top-headlines?q={}&apiKey={}'
-    CAT_API_URL='https://newsapi.org/v2/top-headlines?country=us&category={}&apiKey={}'
+    NEWS_API_BASE_URL='https://newsapi.org/v2/top-headlines?category={}&apiKey={}'
+    
 
 
 class ProdConfig(Config):
@@ -15,8 +15,7 @@ class ProdConfig(Config):
     '''
     
 
-
-class DevConfig(Config):
+class DevConfig(Config): 
     '''
     Development  configuration child class
 
