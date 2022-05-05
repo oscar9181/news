@@ -1,7 +1,11 @@
 {% macro displayNewsList(news_list) %}
   {% for news in news_list %}
 
-  <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 news-card">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-4">
+              <div class="card">
+                  <div class="card-header">
     <img src="{{ news.urlToImage }}" alt="{{ news.title }} "  class="img-responsive">
     <h3>{{news.title}}</h3>
     <p>content: {{news.content}}</p>
@@ -10,8 +14,11 @@
         <a href="/news/{{news.id}}">
             {{ news.title|truncate(10)}}</a>
     </li>
-
-
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
   <li>{{ news.title}}</li>
  {% endfor %}
 
