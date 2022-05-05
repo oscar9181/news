@@ -20,3 +20,13 @@ def index():
     return render_template('index.html',title=title,sports =sports_news,politics =politics_news,business=business_news)
 
 
+@app.route('/news/<int:id>')
+def news(news_id):
+
+    '''
+    View source page function that returns the movie details page and its data
+    '''
+    
+    
+
+    return render_template('news.html',id=news_id)
