@@ -5,10 +5,10 @@
 
  # User Interaction
  # As a user:
-    * I would want to see the news images.
-    * I would want to see the news article
-    * I would want to visit and open links to other pages
-    * I would want to see different  categories of news sources
+    *I would want to see the news images.
+    *I would want to see the news article
+    *I would want to visit and open links to other pages
+    *I would want to see different  categories of news sources
  
  ## Basics
  # Creating and activating virtual environment
@@ -25,9 +25,9 @@
   
   #### Getting News_Api key
   #### In order your page to contain news article you should have an api key:
-         * Visit https://newsapi.org/ to generate your api key
-         * Create a file in the root directory 
-         * Insert the  news api key
+         *Visit https://newsapi.org/ to generate your api key
+         *Create a file in the root directory 
+         *Insert the  news api key
     
     
 
