@@ -11,14 +11,15 @@
    - I would want to see different  categories of news sources
 
  # BDD
- |## Behaviour      | # Input | # Output         |
- | :-----------:    |:-----:  | :-------------:  | 
- |                  |         |                  |
- |                  |         |                  |
- |                  |         |                  |
- |                  |         |                  |
- |                  |         |                  | 
- |
+ | Behaviour               |  Input        | # Output                         |
+ | :-----------:           |:-----:        | :-------------:                  | 
+ | Display news with       | On page load  | News is displayed in homepage    |
+ |  categories             |               |                                  |
+ |  :----------:           | :--------:    |:------------------------:        |
+ | Display artcles from    | click  a news |Redirected to a page with article |
+ | news source             |  source link  |   sources                        |
+ |                         |               |                                  | 
+ 
  
  ## Basics
  # Creating and activating virtual environment
