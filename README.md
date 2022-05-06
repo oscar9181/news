@@ -3,8 +3,8 @@
  ## Description
  This is a flask application page that contains news articles from different sources where a user can be able access latest updates in the world today.
 
- ##User Interaction
- As a user:
+ ## User Interaction
+ # As a user:
  I would like to see the news images
  I would like to see the news article
  I would like to visit and open links to other pages
