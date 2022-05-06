@@ -15,7 +15,7 @@
  | :-----------:           |:-----:        | :-------------:                  | 
  | Display news with       | On page load  | News is displayed in homepage    |
  |  categories             |               |                                  |
- |  :----------:           | :--------:    |:------------------------:        |
+ |                         |               |                                  |
  | Display artcles from    | click  a news |Redirected to a page with article |
  | news source             |  source link  |   sources                        |
  |                         |               |                                  | 
