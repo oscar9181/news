@@ -9,6 +9,16 @@
    - I would want to see the news article
    - I would want to visit and open links to other pages
    - I would want to see different  categories of news sources
+
+ # BDD
+ |## Behaviour      | # Input | # Output         |
+ | :-----------:    |:-----:  | :-------------:  | 
+ |                  |         |                  |
+ |                  |         |                  |
+ |                  |         |                  |
+ |                  |         |                  |
+ |                  |         |                  | 
+ |
  
  ## Basics
  # Creating and activating virtual environment
@@ -16,9 +26,9 @@
     $ source virtual/bin/env
 
  ## Setting up Apllication
-   $ Python3.9
-   $ pip install flask
-   $ virtual env
+    $ Python3.9
+    $ pip install flask
+    $ virtual env
     
  #### Adding modules
   $ python3.9 -m pip install Flask-Bootstrap
