@@ -1,14 +1,14 @@
- ## Bulletin
- ## Author:Oscar Okola
- ## Description
+ # Vidokezo
+ # Author:Oscar Okola
+ # Description
  This is a flask application page that contains news articles from different sources where a user can be able access latest updates in the world today.
 
- ## User Interaction
+ # User Interaction
  # As a user:
-   # I would want to see the news images.
-   # I would want to see the news article
-   # I would want to visit and open links to other pages
-   # I would want to see different  categories of news sources
+   ### I would want to see the news images.
+   ### I would want to see the news article
+   ### I would want to visit and open links to other pages
+   ### I would want to see different  categories of news sources
  
  ## Basics
  # Creating and activating virtual environment
