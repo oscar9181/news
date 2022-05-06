@@ -5,10 +5,10 @@
 
  ## User Interaction
  # As a user:
- I would like to see the news images
- I would like to see the news article
- I would like to visit and open links to other pages
- I would like to see different  categories of news sources
+   # I would want to see the news images.
+   # I would want to see the news article
+   # I would want to visit and open links to other pages
+   # I would want to see different  categories of news sources
  
  ## Basics
  # Creating and activating virtual environment
